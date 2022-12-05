@@ -1,0 +1,514 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  direction: rtl;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("./MarketingScriptInline400.ttf");
+}
+
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutHr {
+  width: 100vw;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  /*  */
+  background-color: white;
+  /* background-image: url("https://thumbs.dreamstime.com/b/marbre-de-qualité-775469.jpg"); */
+  background-size: cover;
+}
+
+.Catalog {
+  padding-bottom: 20px;
+}
+
+.card-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-pagination {
+  margin-left: 20px;
+}
+
+.nav-pagination {
+  margin: 20px auto;
+}
+
+header {
+  font-size: 80px !important;
+  font-weight: bolder;
+  /* text-shadow: 4px 3px #888,5px 4px #ec83ec !important; */
+
+}
+
+nav {
+  background-color: white !important;
+  text-align: center !important;
+}
+
+button {
+  color: white;
+  background-color: #ee8e38;
+}
+
+a,
+button,
+p,
+label {
+  font-size: 20px !important;
+  /* font-weight: 700; */
+}
+
+.nav-link,
+.navbar-toggler,
+.serchIcon,
+.dropdown-item {
+  color: #003248 !important;
+
+}
+
+li {
+  margin-right: 13px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  /* margin-right:30px !important; */
+}
+
+.container-Products {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1000px !important;
+  flex-wrap: wrap !important;
+}
+
+.footerImg {
+  display: flex;
+  width: 100%;
+
+}
+
+.navbar-expand-lg {
+  justify-content: space-between !important;
+}
+
+
+/* SignIn/up */
+.ErrForm {
+  color: #de0000 !important;
+  margin: 0 auto;
+  background-color: rgb(255, 230, 237);
+  width: 400px;
+  height: max-content;
+  padding: 10px;
+  ;
+}
+
+.formSign {
+  width: max-content;
+  height: max-content;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 5px #cae4e9;
+}
+
+.formSign input {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.formSign button {
+  margin-top: 10px !important;
+  width: max-content;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.formSign button:hover {
+  background-color: rgb(252, 245, 245);
+}
+
+.userProfile h2 {
+  color: #003248;
+}
+
+.userProfile th {
+  color: #003248;
+}
+
+.userProfile thead th {
+  border: 1px rgb(197, 189, 189) solid;
+}
+
+.userProfile td,
+th {
+  border: 1px rgb(197, 189, 189) solid;
+  padding: 0 5px;
+}
+
+.userProfile {
+  width: 80%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+/* Products */
+.Products {
+  /* background-color: rgb(247, 233, 208); */
+  margin: 0;
+  margin-bottom: 20px !important;
+}
+
+/* contactUs signIn signUp */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: sans-serif !important; */
+  font-size: 40px !important;
+  background: -webkit-linear-gradient(#0f69ae, #f0cfb0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 70px !important;
+}
+
+@media only screen and (max-width: 991px) {
+
+  .btnDisplay {
+    display: none;
+  }
+}
+
+/* //category */
+
+.btnDisplay {
+  position: absolute;
+  left: 2px;
+  top: 95px;
+  background-color: rgb(255, 255, 255);
+  border: rgb(0, 50, 72, 0.5) 1px solid;
+  border-radius: 44%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* Bag icon */
+.container {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+}
+
+.centered-cart-qty {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(247, 226, 226);
+  font-size: 13px !important
+}
+
+.logInBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.bag {
+  width: 50px !important;
+  margin: 0 !important;
+}
+
+.container {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+
+}
+
+.navbar {
+  box-sizing: unset;
+}
+
+.form-control {
+  width: 60%;
+  margin: 0 a;
+}
+
+.modal-header .btn-close {
+  padding: 0.5rem 0.5rem;
+  margin: -0.5rem -0.5rem -0.5rem auto;
+  margin-left: 0;
+}
+
+.signBtn {
+  border: #003248 1px solid;
+  border-radius: 10%;
+  /* background-color: transparent; */
+}
+
+.Link-SignUp {
+  width: max-content;
+  padding: 0;
+  background-color: #ffe2b1;
+  border-radius: 10%;
+  /* animation: moveBtn 2s 1; */
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  color: #003248;
+  font-weight: 500;
+}
+
+@keyframes moveBtn {
+  100% {
+    padding: 15px;
+    font-weight: 800;
+  }
+}
+
+.SmallCartBtn {
+  font-size: 18px !important;
+  background-color: #003248;
+  font-weight: bold;
+  color: aliceblue !important;
+  border: none !important;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.btnPay {
+  border: #003248 1px solid;
+  border-radius: 12%;
+  width: 50% !important;
+  background-color: cornsilk;
+}
+
+.btnFree {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+h4 {
+  color: #003248;
+
+}
+
+.cartModal {
+  margin: 0 auto;
+  border: #003248 1px solid;
+  width: 350px;
+  position: absolute;
+  left: 0;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+}
+
+.cartModal>* {
+  color: blueviolet !important;
+  font-weight: bolder;
+}
+
+.openCartBtn {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  text-align: center;
+}
+
+/* log in modal */
+.LogInModal {
+  margin: 0 auto;
+  border: #003248 1px solid;
+  width: 150px;
+  position: absolute;
+  right: 150px;
+  height: max-content;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* pagination */
+.page-link {
+  width: 100px !important;
+  margin: 0 auto !important;
+  color: #003248 !important;
+
+  border: rgb(128, 68, 115) 1px solid !important;
+  font-weight: bold;
+}
+
+.checkList input {
+  width: max-content !important;
+  margin-right: 5px;
+  margin-left: 3px;
+}
+
+.checkList span {
+  color: rgb(141, 32, 117) !important;
+}
+
+.checkList {
+  text-align: justify;
+  width: max-content;
+  margin: 10px auto;
+}
+
+.create-product-btn {
+  /* (rgb(98, 39, 116), rgb(214, 54, 107)); */
+  background: -webkit-linear-gradient(#11694E, #89b4d3);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.nav-link,
+.btn-footer-details {
+  font-size: 28px !important;
+  background-color: rgb(250, 250, 250);
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  color: #003248;
+  font-weight: bolder;
+  margin: 0 !important;
+}
+
+.nav-link:hover .btn-footer-details:hover {
+  background-color: rgb(238, 247, 255);
+}
+
+ul {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+
+}
+
+.dropdown-item {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  width: max-content !important;
+}
+
+.dropdown-menu {
+  min-width: max-content !important;
+}
+
+.first-header {
+  width: 80vw;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.search-Box {
+  display: flex;
+  margin: auto 0;
+  width: max-content !important;
+  height: 45px;
+  padding: 0 70px 0 0;
+  background: #fff;
+  /* background-color: #89b4d3; */
+}
+
+.categories-header {
+  width: 90vw !important;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-fluid {
+  width: 20vw !important;
+}
+
+h6 {
+  font-size: 1.8rem !important;
+}
+
+.aboutUs {
+  background-color: rgb(248, 233, 233);
+}
+
+.navbar-toggler {
+
+  border-color: rgb(136, 46, 79) !important;
+  background-color: white !important;
+}
+
+.fa-caret-left:before,
+.fa-caret-right:before {
+  font-size: 28px;
+}
+
+.dropzone {
+  text-align: center;
+  padding: 30px;
+  border: 3px dashed #eeeeee;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.selected-file-wrapper {
+  text-align: center;
+}
+
+.selected-file {
+  color: #000;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 580px) {
+
+  /* .search-Box
+  {
+    display: none !important;
+  } */
+  .cartModal {
+    display: none !important;
+  }
+
+  .container-fluid {
+    width: 100vw;
+    background-color: white;
+  }
+
+  .navbar img {
+    z-index: 2;
+  }
+
+}
+
+@media only screen and (max-width: 850px) {
+  .userProfile .formSign {
+    width: 90vw !important;
+    padding: 0;
+    margin-left: 2vw;
+  }
+
+  .all-my-orders button {
+    font-size: 12px !important;
+  }
+
+  .userProfile {
+    margin: 0;
+  }
+}

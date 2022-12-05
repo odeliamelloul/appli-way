@@ -1,0 +1,28 @@
+.category{
+    width: 200px;
+    height: 700px;
+    background-color: white;
+  }
+  .category a{
+    text-decoration: none;
+    color:#003248 !important;
+
+  }
+  .category a:hover{
+  background-color: rgb(247, 233, 208);
+   width:180px;
+   height: 30px;
+  }
+  .categoryHead
+{
+  font-size: 1.6rem !important;
+  margin-left: 10px;
+}
+.btnCategory {
+    font-size: 16px !important ;
+    font-weight: bold;
+    border-radius: 5%;
+    background-color:rgb(252, 243, 210);
+    border:  rgb(39, 167, 118) 1px solid;
+    margin: 5px auto;  
+  }
